@@ -8,13 +8,13 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: #eee;
+    background: #ffffff;
   }
 
   #root {
     width: 80%;
     margin: 0 auto;
-    font-family: "Do Hyeon", sans-serif;
+    font-family:  'Colfax-Regular',Helvetica,Arial,sans-serif;
     color: #272727;
   }
 `;

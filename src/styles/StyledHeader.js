@@ -25,7 +25,7 @@ const StyledHeader = styled.div`
   background-color:#3368fa;
   color: white;
   float:right;
-  padding: 14px;
+  padding: 14.5px;
 }
 
 .topnav .icon {

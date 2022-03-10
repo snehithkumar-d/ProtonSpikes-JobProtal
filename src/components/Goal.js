@@ -63,7 +63,7 @@ const Goal = ({goal, updates}) => {
 
             </div>
 
-
+<br/>
         </StyledColumns>
     );
 };

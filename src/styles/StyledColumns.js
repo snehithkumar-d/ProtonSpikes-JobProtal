@@ -60,10 +60,11 @@ const StyledColumns = styled.div`
       display: inline;
       width:;
       padding-left: 20px;
-      position: fixed;
-      transform: translateY(100px); 
-      top: 0px; 
-      right:1px; 
+      // position: fixed;
+      // transform: translateY(100px); 
+      // top: 0px; 
+      // right:1px; 
+      
      
     }
 

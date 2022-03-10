@@ -13,7 +13,7 @@ const Goal = ({goal, updates}) => {
                                 <div className="tab">
                                     <input type="checkbox" id={goal.fields.id} />
                                     <label className="tab-label" htmlFor={goal.fields.id}><img src={goal.fields.image} alt="Company Logo" width="50px"/></label>
-                                    <div ><h5><strong>{goal.fields.jobrole}</strong></h5><h5><img src="https://img.icons8.com/ios/14/000000/clock--v1.png" display="inline"/>&nbsp;{goal.fields.datecreated}&nbsp;&nbsp;&nbsp;<img src="https://img.icons8.com/ios/16/000000/link-company-parent.png"/>&nbsp;{goal.fields.location}</h5>    </div>
+                                    <div ><h5>{goal.fields.jobrole}</h5><h5><img src="https://img.icons8.com/ios/14/000000/clock--v1.png" display="inline"/>&nbsp;{goal.fields.datecreated}&nbsp;&nbsp;&nbsp;<img src="https://img.icons8.com/ios/16/000000/link-company-parent.png"/>&nbsp;{goal.fields.location}</h5>    </div>
                                     <div className="tab-content">
                                        <hr/>
                                         <br/>

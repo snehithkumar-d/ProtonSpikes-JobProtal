@@ -53,12 +53,10 @@ function App() {
             <div className="dropdown-content">
                 <a href="#">Remote</a>
                 <a href="#">Part Time</a>
-                <a href="#">Consult</a>
-
+                <a href="#">Quick</a>
             </div>
         </div>
         <p4 href="#about" className="active1" >PROTON SPIKES</p4>
-
     </div>
 </StyledHeader>
 <StyledColumns>
@@ -70,7 +68,7 @@ function App() {
                             data-gtm-cta-type="free" data-gtm-event-type="cta">Start For Free
                     </button>
                 </div>
-            </div>
+        </div>
         </StyledAccordion>
 </StyledColumns>
             {goals.map((goal) => (

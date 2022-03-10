@@ -57,9 +57,14 @@ const StyledColumns = styled.div`
     /* Right column */
     .rightcolumn {
       float: RIGHT;
-         display: inline;
-      width: 25%;
+      display: inline;
+      width:;
       padding-left: 20px;
+      position: fixed;
+      transform: translateY(100px); 
+      top: 0px; 
+      right:1px; 
+     
     }
 
     /* Fake image */
@@ -136,6 +141,7 @@ const StyledColumns = styled.div`
       .leftcolumn, .rightcolumn {
         width: 100%;
         padding: 0;
+        
       }
     }
 

@@ -44,17 +44,12 @@ const Goal = ({goal, updates}) => {
                                         <a href="mailto:contact@job.com"> <h6  >Free Resume Maker</h6></a>
                                         <br/>
                                         <a href="mailto:contact@job.com"> <h6  >Report Job</h6></a>
-
-
                                     </div>
                                 </div>
                                 <p4><div className="tooltip">
                                     <a href={goal.fields.aboutcompany} target="_blank"> More about company </a>
                                     <span className="tooltiptext">{goal.fields.title}</span>
                                 </div> </p4>
-
-
-
                             </div>
                         </StyledAccordion>
 

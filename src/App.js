@@ -4,8 +4,7 @@ import Goal from "./components/Goal";
 import styled from "styled-components";
 import { GlobalStyle } from "./styles/Global.style";
 import StyledHeader from "./styles/StyledHeader";
-import StyledColumns from "./styles/StyledColumns";
-import StyledAccordion from "./styles/StyledAccordion";
+
 
 const base = new Airtable({ apiKey: "keyOLkijR37vovp2d" }).base("appl3yJ1Evpm3HgfM");
 
@@ -44,33 +43,22 @@ function App() {
     <br/>
     <div className="topnav" id="myTopnav">
         <a href="#home" className="active">Home</a>
-        <a href="#news">Blog</a>
-        <a href="#contact">Resumemaker</a>
-        <div className="dropdown">
-            <button className="dropbtn">Categories
-                <i className="fa fa-caret-down"></i>
-            </button>
-            <div className="dropdown-content">
-                <a href="#">Remote</a>
-                <a href="#">Part Time</a>
-                <a href="#">Quick</a>
-            </div>
-        </div>
-        <p4 href="#about" className="active1" >PROTON SPIKES</p4>
+        {/*<a href="#news">Blog</a>*/}
+        {/*<a href="#contact">Resumemaker</a>*/}
+        {/*<div className="dropdown">*/}
+        {/*    <button className="dropbtn">Categories*/}
+        {/*        <i className="fa fa-caret-down"></i>*/}
+        {/*    </button>*/}
+        {/*    <div className="dropdown-content">*/}
+        {/*        <a href="#">Remote</a>*/}
+        {/*        <a href="index">Part Time</a>*/}
+        {/*        <a href="#">Quick</a>*/}
+        {/*    </div>*/}
+        {/*</div>*/}
+        <p4 href="#about" className="active1" >JOB PORTAL</p4>
     </div>
 </StyledHeader>
-<StyledColumns>
-    <StyledAccordion>
 
-        <div className="rightcolumn" >
-                <div className="card" style={ { height: 0} }>
-                    <button type="button" className="btn btn--secondary btn--large" data-gtm-track="true"
-                            data-gtm-cta-type="free" data-gtm-event-type="cta">Start For Free
-                    </button>
-                </div>
-        </div>
-        </StyledAccordion>
-</StyledColumns>
             {goals.map((goal) => (
                 <Goal
                     key={goal.id}

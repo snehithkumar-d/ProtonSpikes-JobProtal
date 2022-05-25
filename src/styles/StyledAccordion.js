@@ -15,6 +15,16 @@ h1 {
   line-height: 2;
   text-align: center;
 }
+
+  .uwks {
+    color: black;
+    font-size: 14px;
+    font-weight: ;
+    letter-spacing: .2px;
+    line-height: 16px;
+}
+
+
 h2 {
   margin: 0 0 .5em;
   font-weight: normal;
@@ -3071,6 +3081,83 @@ input:checked {
 }
 
 
+.ud6WJe {
+    -webkit-box-align: center;
+    box-align: center;
+    align-items: right;
+    background-color: #e6f4ea;
+    border-radius: 0px;
+    display: -webkit-inline-box;
+    display: inline-flex;
+    padding: 4px 8px 4px 4px;
+  position: relative;
+  display: inline-block;
+  float:right;
+  margin:0px 5px;
+}
+ 
+.ud6WJe .cZZOXd {
+    color: #5bb974;
+    font-size: 16px;
+    padding-right: 4px;
+}
+.zwCaJ {
+    color: #2bba74;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .2px;
+    line-height: 16px;
+}
+
+.ud6WJew {
+    -webkit-box-align: center;
+    box-align: center;
+    align-items: right;
+    background-color: #f4ede6;
+    border-radius: 0px;
+    display: -webkit-inline-box;
+    display: inline-flex;
+    padding: 4px 8px 4px 4px;
+  position: relative;
+  display: inline-block;
+  float:right;
+  margin:0px 5px;
+}
+ 
+.ud6WJew .cZZOXdw {
+    color: #5bb974;
+    font-size: 16px;
+    padding-right: 4px;
+}
+.zwCaJw {
+    color: #ffa800;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .2px;
+    line-height: 16px;
+}
+
+
+.column1 {
+  float: left;
+  padding: 0px 5px;
+  height: 10px; 
+}
+
+.left1 {
+  width: 25%;
+}
+
+.right1 {
+  width: 75%;
+}
+
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 `;
 
 

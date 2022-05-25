@@ -12,27 +12,32 @@ const Goal = ({goal, updates}) => {
                             <div className="tabs">
                                 <div className="tab">
                                     <input type="checkbox" id={goal.fields.id} />
+                                    <div className="row1">
+                                        <div className="column1 left1" >
+
+                                        </div>
+                                        <div className="column1 right1" >
+                                            <div className="ud6WJe"><i className="cZZOXd" aria-hidden="true"> </i><span className="zwCaJ">{goal.fields.location}</span></div><div className="ud6WJew"><i className="cZZOXdw" aria-hidden="true"> </i><span className="zwCaJw">{goal.fields.type}</span></div>
+                                        </div>
+                                    </div>
+
                                     <label className="tab-label" htmlFor={goal.fields.id}><img src={goal.fields.image} alt="Company Logo" width="50px"/></label>
-                                    <div ><h5>{goal.fields.jobrole}</h5><h5><img src="https://img.icons8.com/ios/14/000000/clock--v1.png" display="inline"/>&nbsp;{goal.fields.datecreated}&nbsp;&nbsp;&nbsp;<img src="https://img.icons8.com/ios/16/000000/link-company-parent.png"/>&nbsp;{goal.fields.location}</h5>    </div>
+                                    <div ><h5>{goal.fields.company} | {goal.fields.jobrole}</h5>
+                                    <h5><img src="https://img.icons8.com/ios/14/000000/clock--v1.png" display="inline"/>&nbsp;{goal.fields.datecreated}</h5></div>
                                     <div className="tab-content">
                                        <hr/>
                                         <br/>
                                         <p><u> Job Summary</u>
                                         <br/>
-                                        <br/>
-                                        DESCRIPTION
-                                        <br/>
+
                                         <br/></p>
-                                        <p className="truncate-text-multiline">{goal.fields.description}</p>
+                                        <p className="uwks">{goal.fields.description}</p>
                                         <br/>
-                                        <p><u>Basic Qualifications</u>
+                                        <p><u>Qualifications</u>
                                         <br/>
                                         <br/> </p>
-                                        <p>{goal.fields.qualifications}</p>
-                                        <br/>
-                                        <br/>
-                                        <u><img src="https://img.icons8.com/ios/16/000000/money--v1.png"/></u> :&nbsp;{goal.fields.salary}
-                                        <br/>
+                                        <p className="uwks">{goal.fields.qualifications}</p>
+
                                         <br/>
                                         <a type="button" href={goal.fields.apply} target="_blank"
                                            className="btn btn--primary btn--large" data-gtm-track="true"
@@ -48,7 +53,7 @@ const Goal = ({goal, updates}) => {
                                 </div>
                                 <p4><div className="tooltip">
                                     <a href={goal.fields.aboutcompany} target="_blank"> More about company </a>
-                                    <span className="tooltiptext">{goal.fields.title}</span>
+                                    <span className="tooltiptext">{goal.fields.company}</span>
                                 </div> </p4>
                             </div>
                         </StyledAccordion>

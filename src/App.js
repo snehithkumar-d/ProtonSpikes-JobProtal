@@ -4,6 +4,7 @@ import Goal from "./components/Goal";
 import styled from "styled-components";
 import { GlobalStyle } from "./styles/Global.style";
 import StyledHeader from "./styles/StyledHeader";
+import StyledColumns from "./styles/StyledColumns";
 
 
 const base = new Airtable({ apiKey: "keyOLkijR37vovp2d" }).base("appl3yJ1Evpm3HgfM");
@@ -36,13 +37,16 @@ function App() {
     return (
         <>
 
-
-
 <GlobalStyle/>
 <StyledHeader>
+    <div className="topnav1" id="myHeader">
+        <a href="https://cdn.forms-content.sg-form.com/34c7e005-a3c3-11ec-8f08-2a8b3fe5bb0e" className="active" rel="noreferrer">
+            Subscribe for daily postings
+        </a>
+    </div>
     <br/>
     <div className="topnav" id="myTopnav">
-        <a href="#home" className="active">Home</a>
+        <a href="#" className="active">Home</a>
         {/*<a href="#news">Blog</a>*/}
         {/*<a href="#contact">Resumemaker</a>*/}
         {/*<div className="dropdown">*/}
@@ -55,10 +59,16 @@ function App() {
         {/*        <a href="#">Quick</a>*/}
         {/*    </div>*/}
         {/*</div>*/}
-        <p4 href="#about" className="active1" >JOB PORTAL</p4>
+        <p  className="active1" href="https://bit.ly/3z7R7Nd" target="_blank"><img src="https://img.icons8.com/color-glass/18/000000/alpha.png"/></p>
     </div>
+
+
+
 </StyledHeader>
 
+            {/*<StyledColumns>*/}
+            {/*    <iframe src="https://cdn.forms-content.sg-form.com/34c7e005-a3c3-11ec-8f08-2a8b3fe5bb0e" width="600" height="500" frameBorder="0px"/>*/}
+            {/*</StyledColumns>*/}
             {goals.map((goal) => (
                 <Goal
                     key={goal.id}
@@ -71,10 +81,5 @@ function App() {
         </>
     );
 }
-
-
-
-
-
 
 export default App;

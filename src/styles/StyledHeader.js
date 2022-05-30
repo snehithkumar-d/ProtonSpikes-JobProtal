@@ -6,6 +6,7 @@ const StyledHeader = styled.div`
   overflow: hidden;
   background-color: #333;
 }
+ 
 
 .topnav a {
   float: left;
@@ -16,16 +17,43 @@ const StyledHeader = styled.div`
   text-decoration: none;
   font-size: 17px;
 }
+.topnav1 {
+  overflow: visible;
+  background-color: #333;
+  position: fixed;
+  margin: 5px,5px;
+   
+}
 
+.topnav1 a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 12px;
+  
+}
+.topnav1 a1, p1 {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 12px;
+}
 .active {
   background-color:#3368fa;
   color: white;
+  padding: 14.5px;
 }
 .active1 {
   background-color:#3368fa;
   color: white;
   float:right;
-  padding: 14.5px;
+  padding: 12.5px;
 }
 
 .topnav .icon {
